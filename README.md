@@ -1,33 +1,32 @@
-# Glitter Witch Website
+# Glitter Witch Website — Stripe-ready version
 
-A custom black, purple and gold website for the Glitter Witch books and ritual shop.
+This version is prepared for the live domain **glitterwitch.ie**.
 
-## Included pages
+## Confirmed contact email
 
-- `index.html` — homepage
-- `shop.html` — eight-product shop preview and Shopify collection slot
-- `books.html` — all six books with Amazon links
-- `about.html` — the Glitter Witch story
-- `guidance.html` — beginner and candle-safety guidance
-- `faq.html` — frequently asked questions
-- `contact.html` — contact placeholder
-- `policies.html` — development draft for delivery, returns, privacy and terms
-- `styles.css` — complete responsive design
-- `script.js` — mobile menu, page animation and automatic footer year
-- `assets/covers/` — optimised WebP book-cover images
+- carolcarey78@yahoo.com
 
-## Important items before launch
+## Included technical updates
 
-1. Replace the Volume One Amazon search link with its exact product link.
-2. Set up and test `hello@glitterwitch.ie` before publishing it.
-3. Complete all bracketed details on `policies.html`.
-4. Create the physical products and inventory in Shopify.
-5. Paste the Shopify collection Buy Button code in `shop.html` beneath:
-   `PASTE THE SHOPIFY COLLECTION BUY BUTTON CODE DIRECTLY BELOW THIS COMMENT`
-6. Test the basket, checkout, delivery rates, stock reduction, order emails and refunds.
-7. Connect the deployed website to `glitterwitch.ie` through GoDaddy DNS.
+- Shopify wording removed
+- Stripe-ready shop page added
+- Contact page updated with Carol's confirmed email
+- FAQ and policies updated for Stripe
+- `sitemap.xml` added
+- `robots.txt` added
+- Canonical and social-sharing metadata added
+- `CNAME` included for `glitterwitch.ie`
 
-## GitHub upload
+## When the physical products are ready
 
-Upload every file and the entire `assets` folder to the root of the
-`glitter-witch-website` repository.
+The main website will not need to be rebuilt. Update `shop.html` with:
+
+- final product photographs
+- names and descriptions
+- prices
+- delivery information
+- live Stripe Payment Links or Stripe Buy Button code
+
+Product image files will also need to be uploaded to the `assets` folder unless externally hosted.
+
+Never place a Stripe secret key beginning with `sk_` in this repository.
