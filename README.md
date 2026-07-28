@@ -39,3 +39,13 @@ Never place a Stripe secret key beginning with `sk_` in this repository.
 - Books page clearly states that all six titles were written by Carol.
 - Navigation now uses `Author` instead of `About`.
 - Every page includes a subtle footer credit to Carol.
+
+
+## Logo integration
+
+- Glitter Witch logo added to every page header
+- Logo added to the footer
+- Logo added to the homepage author section and Author page
+- Browser favicons and Apple touch icon created
+- Social-sharing image created
+- Responsive sizing added for desktop, tablet and mobile
