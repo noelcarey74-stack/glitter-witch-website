@@ -1019,3 +1019,53 @@ details p {
     transform: none;
   }
 }
+
+
+/* Carol Carey author identity */
+.author-intro {
+  background:
+    radial-gradient(circle at 15% 20%, rgba(155,93,229,.13), transparent 24rem),
+    linear-gradient(180deg, rgba(255,255,255,.015), rgba(255,255,255,0));
+}
+
+.author-note {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(155,93,229,.07);
+  box-shadow: var(--shadow);
+}
+
+.author-note strong,
+.author-note span { display: block; }
+
+.author-note strong {
+  color: var(--gold-light);
+  font-family: "Cinzel", serif;
+  letter-spacing: .04em;
+}
+
+.author-note span {
+  margin-top: .35rem;
+  color: var(--muted);
+}
+
+.author-book-list {
+  width: min(100%, 760px);
+  margin: 2rem auto 0;
+  padding: 1.5rem 2rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.author-book-list p { margin: .55rem 0; }
+.author-book-list strong { color: var(--gold-light); }
+
+@media (max-width: 700px) {
+  .author-note { text-align: left; }
+  .author-book-list { padding: 1.25rem; }
+}

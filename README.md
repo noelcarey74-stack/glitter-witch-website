@@ -30,3 +30,12 @@ The main website will not need to be rebuilt. Update `shop.html` with:
 Product image files will also need to be uploaded to the `assets` folder unless externally hosted.
 
 Never place a Stripe secret key beginning with `sk_` in this repository.
+
+
+## Carol Carey author update
+
+- Homepage now introduces Carol Carey as the author writing under the pen name Glitter Witch.
+- About page is now a full author page.
+- Books page clearly states that all six titles were written by Carol.
+- Navigation now uses `Author` instead of `About`.
+- Every page includes a subtle footer credit to Carol.
