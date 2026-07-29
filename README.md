@@ -49,3 +49,13 @@ Never place a Stripe secret key beginning with `sk_` in this repository.
 - Browser favicons and Apple touch icon created
 - Social-sharing image created
 - Responsive sizing added for desktop, tablet and mobile
+
+
+## Qualifications page
+
+- Added `qualifications.html`
+- Added 12 certificate images to `assets/certificates/`
+- Added Qualifications to the main navigation and footer
+- Added a homepage qualifications preview
+- Updated `sitemap.xml`
+- Added responsive certificate gallery styling
