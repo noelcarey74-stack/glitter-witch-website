@@ -1,61 +1,26 @@
-# Glitter Witch Website — Stripe-ready version
+# Glitter Witch Website — Fourteen Book Upgrade
 
-This version is prepared for the live domain **glitterwitch.ie**.
+This is the complete upload-ready version for **glitterwitch.ie**.
 
-## Confirmed contact email
+## Major updates
 
-- carolcarey78@yahoo.com
+- Homepage redesigned around two book collections
+- Eight full-length books added
+- Six pocket spell books added
+- Direct paperback links to Amazon Ireland
+- Direct Kindle links to Amazon UK
+- Ritual shop launch set for 24 August 2026
+- Dynamic launch countdown added
+- Shop copy updated for Stripe checkout, ritual boxes and merchandise
+- Author, FAQ, guidance, contact and policy pages refreshed
+- Metadata and social-sharing image updated
+- Google verification, CNAME, sitemap and robots file preserved
+- Responsive layouts for desktop, tablet and mobile
 
-## Included technical updates
+## Upload
 
-- Shopify wording removed
-- Stripe-ready shop page added
-- Contact page updated with Carol's confirmed email
-- FAQ and policies updated for Stripe
-- `sitemap.xml` added
-- `robots.txt` added
-- Canonical and social-sharing metadata added
-- `CNAME` included for `glitterwitch.ie`
+Upload every file and folder in this package to the root of the GitHub Pages repository, replacing the older website files. Keep the folder structure unchanged.
 
-## When the physical products are ready
+## When Stripe products are ready
 
-The main website will not need to be rebuilt. Update `shop.html` with:
-
-- final product photographs
-- names and descriptions
-- prices
-- delivery information
-- live Stripe Payment Links or Stripe Buy Button code
-
-Product image files will also need to be uploaded to the `assets` folder unless externally hosted.
-
-Never place a Stripe secret key beginning with `sk_` in this repository.
-
-
-## Carol Carey author update
-
-- Homepage now introduces Carol Carey as the author writing under the pen name Glitter Witch.
-- About page is now a full author page.
-- Books page clearly states that all six titles were written by Carol.
-- Navigation now uses `Author` instead of `About`.
-- Every page includes a subtle footer credit to Carol.
-
-
-## Logo integration
-
-- Glitter Witch logo added to every page header
-- Logo added to the footer
-- Logo added to the homepage author section and Author page
-- Browser favicons and Apple touch icon created
-- Social-sharing image created
-- Responsive sizing added for desktop, tablet and mobile
-
-
-## Qualifications page
-
-- Added `qualifications.html`
-- Added 12 certificate images to `assets/certificates/`
-- Added Qualifications to the main navigation and footer
-- Added a homepage qualifications preview
-- Updated `sitemap.xml`
-- Added responsive certificate gallery styling
+Edit `shop.html` to add final product photographs, prices, availability and Stripe Payment Links or Stripe Buy Button code. Never place a Stripe secret key beginning with `sk_` in the repository.
